@@ -404,6 +404,11 @@ function RouteMap({
     >
 
       <MapContainer
+           
+        style={{
+    height: "500px",
+    width: "100%"
+  }}
 
         center={
           currentPosition || [

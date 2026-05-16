@@ -797,8 +797,6 @@ select {
 
   position: relative;
 
-  background-image: url("background.jpeg");
-
   background-repeat: no-repeat;
 
   background-size: cover;
@@ -1266,6 +1264,13 @@ select {
 
 }
 
+weather-section h2{
+  
+  margin-bottom: 10px;
+
+  color: #16a34a;
+}
+
 .weather-card {
 
   margin-top: 20px;
@@ -1440,6 +1445,7 @@ select {
   height: 80vh;
 
 }
+
 
 /* DARK MODE SUPPORT */
 

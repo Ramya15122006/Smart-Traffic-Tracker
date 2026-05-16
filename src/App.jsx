@@ -3,6 +3,7 @@ import RouteMap from './components/RouteMap';
 import Dashboard from './components/Dashboard';
 import axios from "axios";
 import debounce from "lodash/debounce";
+import bgImage from "./assets/background.jpeg";
 function App() {
   const [sourceText, setSourceText] = useState('');
   const [destinationText, setDestinationText] = useState('');
@@ -920,7 +921,10 @@ const fuelCost = distance
 <div className="main-content">
 
 {showIntro && (
-  <div className="intro-section">
+  <div className="intro-section" 
+  style={{
+    backgroundImage: `url(${bgImage})`
+  }}>
 
     <div className="intro-overlay"></div>
 
